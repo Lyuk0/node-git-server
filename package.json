@@ -26,7 +26,8 @@
     "lint": "eslint .",
     "test": "tape test/*.js",
     "coverage": "tap test/*.js --coverage --coverage-report=lcov",
-    "generate-docs": "tryitout && jsdoc -c jsdoc.json"
+    "generate-docs": "tryitout && jsdoc -c jsdoc.json",
+    "start": "node ./example/index.js"
   },
   "dependencies": {
     "through": "^2.3.8"

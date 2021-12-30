@@ -30,7 +30,7 @@ const repos = new Server(path.normalize(path.resolve(__dirname, 'tmp')), {
         // Decide if this user is allowed to perform this action against this repo.
         user((username, password) => {
           console.log(username, password); // eslint-disable-line
-          if (accountName === '42' && password === '42') {
+          if (accountName === 'happydaram' && password === '12345678') {
             next();
           } else {
             next('wrong password');
